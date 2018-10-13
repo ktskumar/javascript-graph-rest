@@ -1,0 +1,22 @@
+{
+  "name": "javascript-graph-rest",
+  "version": "1.0.0",
+  "description": "Connect Microsoft Graph using javascript",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Microsoft",
+    "Graph",
+    "GraphAPI",
+    "ktskumar"
+  ],
+  "author": "Shantha Kumar T",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7"
+  }
+}

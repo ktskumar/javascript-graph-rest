@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>Microsoft Graph - JavaScript App</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.4/bluebird.min.js" class="pre"></script>
+    <script src="https://secure.aadcdn.microsoftonline-p.com/lib/0.2.3/js/msal.min.js"></script>
+    <script src="scripts/config.js"></script>
+</head>
+
+<body>
+    <h2>Microsoft Graph - JavaScript Applications</h2>
+
+    <button id="btnSignin" onclick="signin()">Sign In</button>
+    <div id="container" style="display:none;">
+        <h3>Welcome <span id="userinfo"></span></h3>
+        <button id="btnSignout" onclick="signout()">Sign Out</button>
+        <button id="getDriveItems" onclick="btnGetAllFiles()">Get All Files</button>
+        <button id="createFolder" onclick="btnCreateFolder()">Create Folder</button>
+        <pre id="json"></pre>
+
+    </div>
+
+    <script src="scripts/graphHelper.js"></script>
+</body>
+
+</html>
